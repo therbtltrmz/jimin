@@ -20,7 +20,7 @@ public class Server
             System.out.println("Waiting for the client to connect..BE PATIENT!^^"); 
   
             socket = server.accept(); 
-            System.out.println("Client has received your request!Yayyy!!"); 
+            System.out.println("Client has received your message!Yayyy!!"); 
   
             // takes input from the client socket 
             in = new DataInputStream( 
